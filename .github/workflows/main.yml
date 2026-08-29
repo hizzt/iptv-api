@@ -69,7 +69,7 @@ jobs:
           git reset --soft $(git rev-list --max-parents=0 HEAD)
           git reset HEAD -- .
           git add -- README.md output/ .github/
-          git remote add gitee git@gitee.com:mytv-android/iptv-api.git
+          git remote add gitee git@gitee.com:hiyun123/iptv-api.git
           git commit -m "Github Action Auto Updated"
           git push gitee --force
         # uses: Yikun/hub-mirror-action@master
